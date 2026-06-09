@@ -1,0 +1,140 @@
+time,event,pid,old_queue,new_queue,detail
+0,arrival,1,-1,0,type=short enters Q0
+1,arrival,18,-1,0,type=short enters Q0
+2,arrival,2,-1,0,type=short enters Q0
+2,arrival,26,-1,0,type=short enters Q0
+3,arrival,4,-1,0,type=short enters Q0
+4,behavior_demotion,18,0,1,cpu_intensity_score=1.00
+4,arrival,11,-1,0,type=short enters Q0
+5,arrival,7,-1,0,type=short enters Q0
+5,arrival,20,-1,0,type=short enters Q0
+5,arrival,21,-1,0,type=short enters Q0
+6,behavior_demotion,2,0,1,cpu_intensity_score=1.00
+6,arrival,14,-1,0,type=short enters Q0
+6,arrival,19,-1,0,type=short enters Q0
+6,arrival,29,-1,0,type=short enters Q0
+7,arrival,9,-1,0,type=short enters Q0
+8,behavior_demotion,26,0,1,cpu_intensity_score=1.00
+8,arrival,5,-1,0,type=short enters Q0
+8,arrival,22,-1,0,type=short enters Q0
+10,behavior_demotion,4,0,1,cpu_intensity_score=1.00
+10,arrival,17,-1,0,type=short enters Q0
+10,arrival,23,-1,0,type=short enters Q0
+10,arrival,25,-1,0,type=short enters Q0
+11,arrival,27,-1,0,type=short enters Q0
+12,behavior_demotion,11,0,1,cpu_intensity_score=1.00
+12,arrival,15,-1,0,type=short enters Q0
+12,arrival,30,-1,0,type=short enters Q0
+14,behavior_demotion,7,0,1,cpu_intensity_score=1.00
+14,arrival,8,-1,0,type=short enters Q0
+15,arrival,10,-1,0,type=short enters Q0
+16,behavior_demotion,20,0,1,cpu_intensity_score=1.00
+16,arrival,13,-1,0,type=short enters Q0
+16,arrival,28,-1,0,type=short enters Q0
+18,behavior_demotion,21,0,1,cpu_intensity_score=1.00
+18,arrival,16,-1,0,type=short enters Q0
+18,arrival,24,-1,0,type=short enters Q0
+20,behavior_demotion,14,0,1,cpu_intensity_score=1.00
+20,quantum_adjust,-1,-1,-1,Q0=2,Q1=4,Q2=8,Q3=16,aging_trigger=8.0,window_cs=10,avg_resp=5.70
+20,arrival,3,-1,0,type=short enters Q0
+20,arrival,6,-1,0,type=short enters Q0
+20,arrival,12,-1,0,type=short enters Q0
+22,aging_promotion,18,1,0,aging_score trigger 8.00
+23,behavior_demotion,29,0,1,cpu_intensity_score=1.00
+24,aging_promotion,2,1,0,aging_score trigger 8.00
+25,behavior_demotion,9,0,1,cpu_intensity_score=1.00
+25,aging_promotion,26,1,0,aging_score trigger 8.00
+27,behavior_demotion,5,0,1,cpu_intensity_score=1.00
+27,aging_promotion,4,1,0,aging_score trigger 8.00
+29,aging_promotion,11,1,0,aging_score trigger 8.00
+30,aging_promotion,7,1,0,aging_score trigger 8.00
+31,aging_promotion,20,1,0,aging_score trigger 8.00
+31,aging_promotion,21,1,0,aging_score trigger 8.00
+31,aging_promotion,9,1,0,aging_score trigger 8.00
+31,aging_promotion,5,1,0,aging_score trigger 8.00
+32,behavior_demotion,23,0,1,cpu_intensity_score=1.00
+32,aging_promotion,14,1,0,aging_score trigger 8.00
+32,aging_promotion,29,1,0,aging_score trigger 8.00
+32,aging_promotion,23,1,0,aging_score trigger 8.00
+34,behavior_demotion,25,0,1,cpu_intensity_score=1.00
+34,aging_promotion,25,1,0,aging_score trigger 8.00
+36,behavior_demotion,27,0,1,cpu_intensity_score=1.00
+36,aging_promotion,27,1,0,aging_score trigger 8.00
+38,behavior_demotion,15,0,1,cpu_intensity_score=1.00
+38,aging_promotion,15,1,0,aging_score trigger 8.00
+40,quantum_adjust,-1,-1,-1,Q0=1,Q1=3,Q2=9,Q3=17,aging_trigger=8.0,window_cs=11,avg_resp=19.55
+42,behavior_demotion,10,0,1,cpu_intensity_score=1.00
+42,aging_promotion,10,1,0,aging_score trigger 8.00
+43,behavior_demotion,13,0,1,cpu_intensity_score=1.00
+43,aging_promotion,13,1,0,aging_score trigger 8.00
+45,behavior_demotion,16,0,1,cpu_intensity_score=1.00
+45,aging_promotion,16,1,0,aging_score trigger 8.00
+46,behavior_demotion,24,0,1,cpu_intensity_score=1.00
+46,aging_promotion,24,1,0,aging_score trigger 8.00
+47,behavior_demotion,3,0,1,cpu_intensity_score=1.00
+47,aging_promotion,3,1,0,aging_score trigger 8.00
+48,behavior_demotion,6,0,1,cpu_intensity_score=1.00
+48,aging_promotion,6,1,0,aging_score trigger 8.00
+50,behavior_demotion,18,0,1,cpu_intensity_score=1.00
+50,aging_promotion,18,1,0,aging_score trigger 8.00
+52,behavior_demotion,26,0,1,cpu_intensity_score=1.00
+52,aging_promotion,26,1,0,aging_score trigger 8.00
+54,behavior_demotion,11,0,1,cpu_intensity_score=1.00
+54,aging_promotion,11,1,0,aging_score trigger 8.00
+55,behavior_demotion,7,0,1,cpu_intensity_score=1.00
+55,aging_promotion,7,1,0,aging_score trigger 8.00
+56,behavior_demotion,20,0,1,cpu_intensity_score=1.00
+56,aging_promotion,20,1,0,aging_score trigger 8.00
+57,behavior_demotion,21,0,1,cpu_intensity_score=1.00
+57,aging_promotion,21,1,0,aging_score trigger 8.00
+59,behavior_demotion,5,0,1,cpu_intensity_score=1.00
+59,aging_promotion,5,1,0,aging_score trigger 8.00
+60,quantum_adjust,-1,-1,-1,Q0=1,Q1=2,Q2=10,Q3=18,aging_trigger=8.0,window_cs=20,avg_resp=26.56
+61,behavior_demotion,29,0,1,cpu_intensity_score=1.00
+61,aging_promotion,29,1,0,aging_score trigger 8.00
+62,behavior_demotion,23,0,1,cpu_intensity_score=1.00
+62,aging_promotion,23,1,0,aging_score trigger 8.00
+63,behavior_demotion,25,0,1,cpu_intensity_score=1.00
+63,aging_promotion,25,1,0,aging_score trigger 8.00
+64,behavior_demotion,27,0,1,cpu_intensity_score=1.00
+64,aging_promotion,27,1,0,aging_score trigger 8.00
+65,behavior_demotion,15,0,1,cpu_intensity_score=1.00
+65,aging_promotion,15,1,0,aging_score trigger 8.00
+67,behavior_demotion,13,0,1,cpu_intensity_score=1.00
+67,aging_promotion,13,1,0,aging_score trigger 8.00
+68,behavior_demotion,16,0,1,cpu_intensity_score=1.00
+68,aging_promotion,16,1,0,aging_score trigger 8.00
+69,behavior_demotion,24,0,1,cpu_intensity_score=1.00
+69,aging_promotion,24,1,0,aging_score trigger 8.00
+70,behavior_demotion,3,0,1,cpu_intensity_score=1.00
+70,aging_promotion,3,1,0,aging_score trigger 8.00
+71,behavior_demotion,6,0,1,cpu_intensity_score=1.00
+71,aging_promotion,6,1,0,aging_score trigger 8.00
+74,behavior_demotion,11,0,1,cpu_intensity_score=1.00
+74,aging_promotion,11,1,0,aging_score trigger 8.00
+75,behavior_demotion,7,0,1,cpu_intensity_score=1.00
+75,aging_promotion,7,1,0,aging_score trigger 8.00
+76,behavior_demotion,20,0,1,cpu_intensity_score=1.00
+76,aging_promotion,20,1,0,aging_score trigger 8.00
+78,behavior_demotion,5,0,1,cpu_intensity_score=1.00
+79,behavior_demotion,29,0,1,cpu_intensity_score=1.00
+79,aging_promotion,5,1,0,aging_score trigger 8.00
+80,quantum_adjust,-1,-1,-1,Q0=1,Q1=2,Q2=11,Q3=19,aging_trigger=8.0,window_cs=20,avg_resp=0.00
+81,behavior_demotion,25,0,1,cpu_intensity_score=1.00
+82,behavior_demotion,27,0,1,cpu_intensity_score=1.00
+83,behavior_demotion,15,0,1,cpu_intensity_score=1.00
+83,aging_promotion,29,1,0,aging_score trigger 8.00
+84,behavior_demotion,13,0,1,cpu_intensity_score=1.00
+85,behavior_demotion,16,0,1,cpu_intensity_score=1.00
+85,aging_promotion,25,1,0,aging_score trigger 8.00
+86,behavior_demotion,24,0,1,cpu_intensity_score=1.00
+86,aging_promotion,27,1,0,aging_score trigger 8.00
+87,aging_promotion,15,1,0,aging_score trigger 8.00
+90,aging_promotion,13,1,0,aging_score trigger 8.00
+91,aging_promotion,16,1,0,aging_score trigger 8.00
+92,behavior_demotion,5,0,1,cpu_intensity_score=1.00
+92,aging_promotion,24,1,0,aging_score trigger 8.00
+96,behavior_demotion,15,0,1,cpu_intensity_score=1.00
+97,behavior_demotion,13,0,1,cpu_intensity_score=1.00
+98,behavior_demotion,16,0,1,cpu_intensity_score=1.00
+100,quantum_adjust,-1,-1,-1,Q0=1,Q1=2,Q2=12,Q3=20,aging_trigger=8.0,window_cs=20,avg_resp=0.00
