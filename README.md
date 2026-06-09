@@ -37,13 +37,11 @@ os_course_projects/
 ├── .gitignore
 ├── os_course_design/
 │   ├── Makefile
-│   ├── README.md
 │   ├── data/
 │   ├── include/
 │   └── src/
 └── ab_mlfq_scheduler_c/
     ├── Makefile
-    ├── README.md
     ├── include/
     ├── src/
     ├── scripts/
@@ -51,7 +49,6 @@ os_course_projects/
     └── figures/
 ```
 
-说明：课程设计报告 Markdown 文件保留在本地，未上传到仓库；仓库主要保留代码、README、样例数据和可复现实验结果。
 
 ## 环境要求
 
@@ -230,15 +227,6 @@ cd ab_mlfq_scheduler_c
 ./scheduler all behavior_sensitive 30 42
 ```
 
-## Git 忽略规则
-
-仓库忽略以下内容：
-
-- C 编译产物：`*.o`、可执行文件
-- matplotlib 缓存
-- 本地课程设计报告 Markdown
-
-`results/` 和 `figures/` 默认在 `.gitignore` 中被忽略，但本仓库已强制提交了一组最终实验结果，便于直接查看。
 
 ## 推荐查看顺序
 
