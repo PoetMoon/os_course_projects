@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# C build artifacts
+*.o
+
+# binaries
+os_course_design/os_course_design
+ab_mlfq_scheduler_c/scheduler
+ab_mlfq_scheduler_c/scheduler_asan
+
+# generated experiment outputs
+ab_mlfq_scheduler_c/results/*
+!ab_mlfq_scheduler_c/results/.gitkeep
+ab_mlfq_scheduler_c/figures/*
+!ab_mlfq_scheduler_c/figures/.gitkeep
+
+# matplotlib cache
+ab_mlfq_scheduler_c/.mplcache/
+
+# local course reports, keep GitHub focused on code and README files
+操作系统课程设计报告.md
+基础实验_实验报告.md
+AB-MLFQ_实验报告.md
